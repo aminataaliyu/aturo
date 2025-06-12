@@ -1,0 +1,193 @@
+.navigator{
+    background: rgb(236, 240, 236);
+    border-bottom: 2px solid #918f8f;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.flex{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.div-1{
+    display: flex;
+    gap: 2rem;
+  list-style: none;
+    
+}
+
+.div-1 a{
+  text-decoration: none;
+  color: #2a2a2a;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.btn{ 
+    padding: 1rem 1rem;
+    background: rgb(52, 126, 101);
+    border-radius: 4px;
+    color: antiquewhite;
+    text-decoration: none;
+
+
+}
+.btn1{ 
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+
+
+}
+
+.img2{
+    border-right: 50rem;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 25px;
+}
+
+ul li ul.Dropdown li{
+    display: block;
+}
+ul li ul.Dropdown{
+    width: 20%;
+    background:navajowhite;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+}
+ul li a:hover {
+    background: gray
+}
+ul li:hover ul.Dropdown{
+    display: block;
+}
+ul li ul.Dropdown1 li{
+    display: block;
+}
+ul li ul.Dropdown1{
+    width: 20%;
+    background:navajowhite;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+}
+ul li a:hover {
+    background: gray
+}
+ul li:hover ul.Dropdown1{
+    display: block;
+}
+.content{
+     max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.content1{
+     max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1-txt
+{
+    font-size: 40px;
+}
+
+.h1-txt1
+{
+    font-size: 20px;
+    text-decoration-style: none;
+    font-weight: lighter;
+}
+.txt
+{
+    font-size: 20px;
+    border: 1 rem;
+    background-color: paleturquoise;
+    width: fit-content;
+    font-weight: lighter;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* 
+.h2{
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h3{
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h4{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h5{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .desc
+{
+    gap: 2px;
+} */
